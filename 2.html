@@ -1,0 +1,16 @@
+<script>
+    class tv{ // storage
+        constructor(){
+            console.log("This is constructor");
+            this.channel = "Star Gold"  // this keyword is current class 
+        }
+        volume(){
+            // constructor method
+            console.log("dolby sound");
+            console.log(this.channel);        
+        }
+    }
+    var remote = new tv();
+    var remote1 = new tv();
+    remote.volume();
+</script>
